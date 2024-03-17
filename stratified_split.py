@@ -29,7 +29,6 @@ test_ratio = 3000/17034
 training_ration = 1 - validation_ratio - test_ratio
 
 #Function to perform stratified split for each class
-
 def stratified_split(class_dir, class_name):
     images = os.listdir(class_dir)
     # print(class_dir, class_name)
